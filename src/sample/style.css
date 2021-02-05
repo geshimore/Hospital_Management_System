@@ -1,0 +1,9 @@
+.root{
+    -fx-background-image: url("/images/homeLoginPicture.png");
+    -fx-background-size: cover;
+
+}
+.doctorRoot{
+    -fx-background-image: url("/images/doctor.png");
+    -fx-background-size: cover;
+}
