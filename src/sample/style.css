@@ -1,9 +1,13 @@
 .root{
-    -fx-background-image: url("/images/homeLoginPicture.png");
+    -fx-background-image: url("../images/homeLoginPicture.png");
     -fx-background-size: cover;
 
 }
-.doctorRoot{
-    -fx-background-image: url("/images/doctor.png");
+.doctorHomeRoot{
+    -fx-background-image: url("../images/doctorhomep.png");
+    -fx-background-size: cover;
+}
+.doctorLoginRoot{
+    -fx-background-image: url("../images/doctorloginp.png");
     -fx-background-size: cover;
 }
