@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="sample.ReceptionLogin"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="500.0" prefWidth="800.0" styleClass="receptionLoginRoot" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ReceptionLogin">
+   <children>
+      <AnchorPane layoutX="462.0" layoutY="117.0" opacity="0.66" prefHeight="376.0" prefWidth="328.0" style="-fx-background-color: #0bbafb;">
+         <children>
+            <Label layoutX="53.0" layoutY="19.0" text="RECEPTIONIST PANEL">
+               <font>
+                  <Font name="Arial Bold" size="21.0" />
+               </font></Label>
+            <Label layoutX="93.0" layoutY="54.0" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="52.0" />
+               </font></Label>
+            <JFXTextField focusColor="#4b5265" layoutX="29.0" layoutY="148.0" opacity="0.54" prefHeight="25.0" prefWidth="271.0" promptText="Username" unFocusColor="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton layoutX="29.0" layoutY="296.0" prefHeight="25.0" prefWidth="271.0" ripplerFill="BLACK" style="-fx-background-color: #cea68f;" text="Sign in">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXPasswordField focusColor="#404451" layoutX="29.0" layoutY="222.0" prefHeight="25.0" prefWidth="271.0" promptText="Password">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXPasswordField>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>

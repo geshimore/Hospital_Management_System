@@ -11,3 +11,11 @@
     -fx-background-image: url("../images/doctorloginp.png");
     -fx-background-size: cover;
 }
+.receptionLoginRoot{
+    -fx-background-image: url("../images/receptionistloginp.png");
+    -fx-background-size: cover;
+}
+.pharmacyRoot{
+    -fx-background-image: url("../images/pharmacistloginp.png");
+    -fx-background-size: cover;
+}
